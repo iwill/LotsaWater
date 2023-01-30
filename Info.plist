@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>LotsaWater</string>
 	<key>CFBundleExecutable</key>
 	<string>LotsaWater</string>
 	<key>CFBundleIconFile</key>
@@ -12,23 +14,21 @@
 	<string>cx.c3.lotsawater</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>LotsaWater</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.8</string>
+	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.8</string>
-	<key>NSPrincipalClass</key>
-	<string>LWLotsaWaterView</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.entertainment</string>
-	<key>CFBundleName</key>
-	<string>LotsaWater</string>
-	<key>CFBundleDisplayName</key>
-	<string>LotsaWater</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>2011 Dag Ågren</string>
+	<key>NSPrincipalClass</key>
+	<string>LWLotsaWaterView</string>
 </dict>
 </plist>

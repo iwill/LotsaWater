@@ -219,7 +219,7 @@
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					8D255AC50486D3F9007BF209 = {
-						DevelopmentTeam = 95923X8WXP;
+						DevelopmentTeam = SS3VFXY4DG;
 					};
 				};
 			};
@@ -310,7 +310,8 @@
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				DEVELOPMENT_TEAM = 95923X8WXP;
+				CURRENT_PROJECT_VERSION = 1.8.1;
+				DEVELOPMENT_TEAM = SS3VFXY4DG;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -325,6 +326,7 @@
 					"\"$(SRCROOT)/GLObject\"",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.8.1;
 				OTHER_CFLAGS = "-DClassNamePrefix=LW";
 				PRODUCT_NAME = LotsaWater;
 				PROVISIONING_PROFILE = "";
@@ -339,7 +341,8 @@
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				DEVELOPMENT_TEAM = 95923X8WXP;
+				CURRENT_PROJECT_VERSION = 1.8.1;
+				DEVELOPMENT_TEAM = SS3VFXY4DG;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_FAST_MATH = YES;
@@ -357,6 +360,7 @@
 					"\"$(SRCROOT)/GLObject\"",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.8.1;
 				OTHER_CFLAGS = (
 					"-DClassNamePrefix=LW",
 					"-fsingle-precision-constant",
