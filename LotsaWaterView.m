@@ -111,6 +111,7 @@
 		}
 		break;
 	}
+    int screen_w = tex_w, screen_h = tex_h;
 
 	float screen_scale=1.3/sqrtf((float)(screen_w*screen_w+screen_h*screen_h));
 	float screen_fw=(float)screen_w*screen_scale;

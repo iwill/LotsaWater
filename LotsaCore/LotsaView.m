@@ -17,9 +17,6 @@
 		clockwin=nil;
 		clockpopup=nil;
 
-		screen_w=(int)frame.size.width;
-		screen_h=(int)frame.size.height;
-
 		prevtime=starttime=0;
 
 		if(usegl)
@@ -101,10 +98,10 @@
 				default: divider=16; break;
 			}
 
-			clockwin=[[LotsaClockWindow alloc] initWithFont:[NSFont fontWithName:@"Futura-CondensedExtraBold" size:(double)screen_w/divider]];
+			clockwin=[[LotsaClockWindow alloc] initWithFont:[NSFont fontWithName:@"Futura-CondensedExtraBold" size:(double)self.frame.size.width/divider]];
 			NSSize size=[clockwin frame].size;
 
-			[clockwin setFrameOrigin:NSMakePoint(screen_w-size.width,screen_h-size.height)];
+			[clockwin setFrameOrigin:NSMakePoint(self.frame.size.width-size.width,self.frame.size.height-size.height)];
 			[[self window] addChildWindow:clockwin ordered:NSWindowAbove];
 		}
 	}

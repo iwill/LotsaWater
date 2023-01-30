@@ -15,7 +15,6 @@
 	BOOL ispreview;
 	NSOpenGLView *view;
 	double starttime,prevtime;
-	int screen_w,screen_h;
 	LotsaClockWindow *clockwin;
 
 	NSString *savername,*configname;
