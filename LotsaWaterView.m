@@ -45,7 +45,13 @@
 	{
 		screenshot=[self grabScreenShot];
 	}
-	[screenshot drawAtPoint:NSMakePoint(0,0)];
+    
+    CGFloat scale = [[[self window] screen] backingScaleFactor];
+    if (scale != 1.0) {
+        rect.size.width *= scale;
+        rect.size.height *= scale;
+    }
+    [screenshot drawInRect:rect fromRect:NSZeroRect operation:0 fraction:1.0 respectFlipped:NO hints:NULL];
 }
 
 -(void)startAnimationWithDefaults:(ScreenSaverDefaults *)defaults
