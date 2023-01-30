@@ -43,6 +43,7 @@
 				[self setAutoresizesSubviews:YES];
 				[self addSubview:view];
 				[view prepareOpenGL];
+                [view setWantsBestResolutionOpenGLSurface:YES];
 
 				[[view openGLContext] makeCurrentContext];
 
@@ -296,7 +297,7 @@
 
 	CGImageRef image=CGWindowListCreateImage(NSRectToCGRect(bounds),
 	kCGWindowListOptionOnScreenBelowWindow,
-	windowid,kCGWindowImageBoundsIgnoreFraming);
+	windowid,kCGWindowImageBoundsIgnoreFraming|kCGWindowImageBestResolution);
     
 	NSBitmapImageRep *rep=[[NSBitmapImageRep alloc] initWithCGImage:image];
 	CGImageRelease(image);
