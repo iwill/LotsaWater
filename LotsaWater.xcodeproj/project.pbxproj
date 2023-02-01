@@ -35,15 +35,11 @@
 
 /* Begin PBXFileReference section */
 		06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
-		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		1B0BFC69091EC5EB0012580D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
 		1B0BFC90091EC98F0012580D /* Water.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Water.h; sourceTree = "<group>"; };
 		1B0BFC91091EC98F0012580D /* Water.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Water.c; sourceTree = "<group>"; };
 		1B0BFFD8092039AF0012580D /* reflections.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reflections.png; sourceTree = "<group>"; };
-		1B1B99310B07C19400EC8324 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/ConfigSheet.nib; sourceTree = "<group>"; };
-		1B1B99330B07C1AE00EC8324 /* Japanese */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1B5057280922E21100877C3D /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ConfigSheet.nib; sourceTree = "<group>"; };
 		1B81AFFE136BA2BD002AA257 /* LotsaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotsaView.h; sourceTree = "<group>"; };
 		1B81AFFF136BA2BD002AA257 /* LotsaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotsaView.m; sourceTree = "<group>"; };
 		1B81B000136BA2BD002AA257 /* NameMangler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameMangler.h; sourceTree = "<group>"; };
@@ -60,6 +56,8 @@
 		32DBCFA80370C50100C91783 /* LotsaWater_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotsaWater_Prefix.pch; sourceTree = "<group>"; };
 		8D255AD20486D3F9007BF209 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D255AD30486D3F9007BF209 /* LotsaWater.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotsaWater.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2CAA3B298A9B6200E7C6A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en; path = en.lproj/ConfigSheet.nib; sourceTree = "<group>"; };
+		DF2CAA3C298A9B6800E7C6A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F50079790118B23001CA0E54 /* LotsaWaterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotsaWaterView.h; sourceTree = "<group>"; };
 		F500797A0118B23001CA0E54 /* LotsaWaterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotsaWaterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -225,12 +223,10 @@
 			};
 			buildConfigurationList = 1B0BFB64091C4EA90012580D /* Build configuration list for PBXProject "LotsaWater" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
-				English,
 				en,
-				Japanese,
 			);
 			mainGroup = 089C166AFE841209C02AAC07 /* LotsaWater */;
 			projectDirPath = "";
@@ -286,8 +282,7 @@
 		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C167EFE841241C02AAC07 /* English */,
-				1B1B99330B07C1AE00EC8324 /* Japanese */,
+				DF2CAA3C298A9B6800E7C6A6 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -295,8 +290,7 @@
 		1B1B992F0B07C18F00EC8324 /* ConfigSheet.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1B5057280922E21100877C3D /* English */,
-				1B1B99310B07C19400EC8324 /* Japanese */,
+				DF2CAA3B298A9B6200E7C6A6 /* en */,
 			);
 			name = ConfigSheet.nib;
 			sourceTree = "<group>";
